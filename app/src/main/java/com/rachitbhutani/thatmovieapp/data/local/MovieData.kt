@@ -1,7 +1,7 @@
-package com.rachitbhutani.thatmovieapp.data
+package com.rachitbhutani.thatmovieapp.data.local
 
 data class MovieData(
-    val id: String,
-    val name: String,
-    val thumbnail: String,
+    val id: Int?,
+    val name: String?,
+    val thumbnail: String?,
 )

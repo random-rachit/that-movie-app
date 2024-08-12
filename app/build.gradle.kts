@@ -91,4 +91,8 @@ dependencies {
 
     //Navigation
     implementation("androidx.navigation:navigation-compose:$navVersion")
+
+    // Jetpack Compose and ViewModel dependencies
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
 }

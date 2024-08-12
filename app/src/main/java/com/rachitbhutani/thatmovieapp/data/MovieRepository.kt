@@ -1,4 +1,9 @@
 package com.rachitbhutani.thatmovieapp.data
 
-class MovieRepository {
+import javax.inject.Inject
+
+class MovieRepository @Inject constructor(private val movieService: MovieService) {
+
+    suspend fun getMovies() = movieService.getMovies()
+
 }
