@@ -1,0 +1,1 @@
+# Use the release v0.0.1 to check out the debug app or [click here](https://github.com/random-rachit/that-movie-app/releases/download/v0.0.1/app-debug.apk)
